@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Forum&display=swap');
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    max-width: 100vw;
+}
+
+.header {
+    display: flex;
+    width: 100vw;
+    height: 26.4vh;
+    align-items: center;
+    justify-content: space-around;
+    background: #030303;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    
+    width: 100vw;
+    height: 347.25rem;
+    align-items: center;
+    justify-content: ;
+    color:#FFFFFF;
+    background: #030303;
+}
+
+.logo> .img {
+    margin-right: 1.25rem;
+}
+.nav {
+    display: flex;
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: 100;
+    width: 45rem;
+    justify-content: space-around;
+    list-style: none;
+}
+    
+.logo {
+    display: flex; 
+    color: #FFFFFF;
+    font-family: Forum, cursive;
+    font-size: 28px;
+}
+
+.welcome {
+    width: 100vw;
+    height: 46.875rem;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    background-image: url(/assets/img/background.png);
+    background-repeat: no-repeat;
+}
+.container1 {
+    display: flex;
+    font-family: Forum, cursive;
+    font-size: 80px;
+    line-height: 180px;
+    letter-spacing: 5px;
+}
+.container2 {
+    display: flex;
+    font-family: Roboto;
+    font-weight: 100;
+    font-size: 28px;
+    }
+.button {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 22.5rem;
+    height: 4.688rem;
+    font-family: Roboto;
+    font-weight: 100;
+    font-size: 22px;
+    border: 1px solid #710707;
+    border-radius: 10px;
+    background: #710707;
+}
+.tour {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    align-items: ;
+    background: #FFFFFF;
+    color: #000000; 
+}
+.tour-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.media {
+    display: flex;
+    flex-flow: column;  
+}
+.rectangle {
+    width: 300px;
+    height: 2px;
+    background: #710707;
+}
